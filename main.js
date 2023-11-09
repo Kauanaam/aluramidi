@@ -27,4 +27,8 @@ document.querySelector('.tecla_tic').onclik=tocaSomTic;
 function tocaSomTom() {document.querySelector('#som_tecla_tom').play()}
 document.querySelector('.tecla_tom').onclik=tocaSomTom;
 
-const listadetecla=document.querySelector('.tecla') 
+const listadetecla = document.querySelectorAll('.tecla')
+
+listadetecla[0].onclick = tocaSomPom while (condition) {
+    
+}
